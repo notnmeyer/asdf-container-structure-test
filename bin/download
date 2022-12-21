@@ -29,5 +29,5 @@ mkdir -p "${ASDF_DOWNLOAD_PATH}"
 echo "Downloading container-structure-test v${ASDF_INSTALL_VERSION}"
 
 curl --silent --fail --show-error --location \
-  "https://github.com/GoogleContainerTools/container-structure-test/releases/download/v${ASDF_INSTALL_CERSION}/container-structure-test-${platform}-${arch}" \
+  "https://github.com/GoogleContainerTools/container-structure-test/releases/download/v${ASDF_INSTALL_VERSION}/container-structure-test-${platform}-${arch}" \
   -o "${ASDF_DOWNLOAD_PATH}/container-structure-test"
