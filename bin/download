@@ -17,7 +17,7 @@ else
 fi
 
 arch=$(uname -m)
-if [[ "$platform_arch" == "x86_64" ]]; then
+if [[ "$arch" == "x86_64" ]]; then
   arch="amd64"
 fi
 
