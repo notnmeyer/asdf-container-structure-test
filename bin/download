@@ -19,7 +19,7 @@ fi
 arch=$(uname -m)
 if [[ "$arch" == "x86_64" ]]; then
   arch="amd64"
-else if [[ "$arch" == "arm64" && "$platform" == "darwin" ]]; then
+elif [[ "$arch" == "arm64" && "$platform" == "darwin" ]]; then
   # there is no darwin arm64 build... yet?
   arch="amd64"
 fi
